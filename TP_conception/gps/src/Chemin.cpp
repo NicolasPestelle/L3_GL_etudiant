@@ -71,9 +71,13 @@ void Chemin::partitionner(const string & ville, Chemin & cheminAvec,
 }
 
 void Chemin::importerCsv(istream & is) {
-
     // TODO
-
+  std::string v1,v2;
+  int d;
+  while(is>>v1>>v2>>d){
+    Route r{v1,v2,d};
+    routes_.push_back(r);
+  }
 }
 
 void Chemin::exporterDot(ostream & os, const string & ville1, 

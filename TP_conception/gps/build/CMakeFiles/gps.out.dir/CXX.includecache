@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/etudiants/npestell/Documents/L3_GL_etudiant/TP_conception/gps/src/Chemin.cpp
+Chemin.hpp
+/etudiants/npestell/Documents/L3_GL_etudiant/TP_conception/gps/src/Chemin.hpp
+limits
+-
+queue
+-
+sstream
+-
+
+/etudiants/npestell/Documents/L3_GL_etudiant/TP_conception/gps/src/Chemin.hpp
+Route.hpp
+/etudiants/npestell/Documents/L3_GL_etudiant/TP_conception/gps/src/Route.hpp
+iostream
+-
+vector
+-
+
+/etudiants/npestell/Documents/L3_GL_etudiant/TP_conception/gps/src/Route.hpp
+string
+-
+
